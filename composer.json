@@ -1,0 +1,36 @@
+{
+    "name": "ravimakvana/asgard-features",
+    "description": "Asgard Features WordPress Plugin",
+    "license": "GPL-3.0+",
+    "version": "1.0.0",
+    "keywords": [
+        "wordpress",
+        "plugin"
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "homepage": "https://github.com/ravismakwana/asgard-features",
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "object-calisthenics/phpcs-calisthenics-rules": "*",
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "authors": [
+        {
+            "name": "Ravi Makwana",
+            "email": "ravi.krishna148@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AsgardFeatures\\": "src/"
+        }
+    }
+}
